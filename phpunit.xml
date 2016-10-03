@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<phpunit bootstrap="Bootstrap.php"
+         haltOnError="true"
+         haltOnFailure="true"
+         colors="true">
+    <testsuites>
+        <testsuite name="CompuFacilZf2">
+            <directory>./module</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
